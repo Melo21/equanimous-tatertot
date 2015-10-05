@@ -1,0 +1,13 @@
+(1..100).each do |num|
+    if num % 3 == 0 && num % 5 == 0
+        puts 'cracklepop'
+    elsif num % 3 == 0 
+    puts 'crackle'
+elsif num % 5 == 0
+else puts num
+    puts 'pop'
+    
+end
+end
+
+        
